@@ -126,12 +126,13 @@ main{
 }
 
 main h2{
-  font-size: 35px;
+  font-size: 40px;
+
 }
 
 main p{
   padding-top: 15px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 
@@ -170,59 +171,129 @@ main section{
 section div aside{
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
+  margin: 0 auto;
   height: 600px;
   min-width: 40%;
   background-color: white;
 }
 
+.tecnologia{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
 
 .img-chiamata{
   background-image: url(../img/item4-big.svg);
-  background-color: white;
   background-repeat: no-repeat;
   background-size: contain;
   height: 850px;
   min-width: 90%;
 }
+
+.scarica-bot{
+  background-color: rgba(235, 231, 231, 0.993);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+.scarica-bot h2{
+  background-image: url(../img/stars.svg);
+  background-size: cover;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.mac-blu{
+  margin: auto;
+  max-width: 200px;
+  background-color: #3161e0;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+}
+
+
+
+
 /*MAIN*/
 
 
 /*FOOTER*/
-footer{
-  background-color: #24272A;
+
+footer>div{
+  background-color: rgb(56, 52, 52);
 }
+footer h2, footer h3{
+  color: #3161e0;
+}
+
+footer h2{
+  font-size: 30px;
+}
+
+
+footer ul{
+  padding-top: 20px;
+  color: white;
+  font-size: 15px;
+}
+
+
 
 footer .top{
   display: flex;
   margin: 0 auto;
+  padding-top: 60px;
   width: 1200px;
   height: 500px;
-  background-color: rgb(109, 208, 79);
 }
 
 footer .top .social{
   display: flex;
   width: calc(100% / 3);
   height: 100%;
-  background-color: rgb(156, 247, 129);
-  border: 1px dashed black;
+  color: white;
 }
 
 footer .top .info{
   width: calc(100% / 6);
   height: 100%;
-  background-color: rgb(180, 237, 162);
-  border: 1px dashed black;
+  
+
 }
 
 footer .bottom{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  border-top: 1px white solid;
   height: 80px;
-  background-color: rgb(37, 131, 9);
+  padding-top: 20px;
+}
+
+.registrati{
+  max-width: 200px;
+  background-color: #4f75e0;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+}
+
+.fa-brands{
+  color: white;
 }
 
 
