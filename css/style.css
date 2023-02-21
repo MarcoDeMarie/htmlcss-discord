@@ -16,7 +16,7 @@
 
 .container{
   width: 90%;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 body{
@@ -89,15 +89,31 @@ ul li{
 /*CONTENUTO*/
 .jumbotron{
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 500px;
   max-width: 1500px;
   background-image: url(../img/jumbo.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  margin: 0 auto;
+  color: white;
 }
 
-.jumbotron div{
+.jumbotron div h1{
+  font-size:50px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
 }
+
+.jumbotron div p{
+  font-size:20px;
+  display: flex;
+  justify-content: center;
+}
+
+
 
 /*CONTENUTO*/
 /*HEADER*/
@@ -161,10 +177,14 @@ section div aside{
   background-color: white;
 }
 
-.tecnologia div{
-  min-width: 1400px;
-  background-color: green;
+
+.img-chiamata{
+  background-image: url(../img/item4-big.svg);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: contain;
   height: 850px;
+  min-width: 90%;
 }
 /*MAIN*/
 
